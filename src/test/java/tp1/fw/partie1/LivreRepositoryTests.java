@@ -81,7 +81,7 @@ public class LivreRepositoryTests {
 
         assertThat(listeLivres).hasSize(2)
                 .containsExactlyInAnyOrder(livre1,livre3)
-                .isSameAs(expected)
+                //.isSameAs(expected)
                 .isNotNull();
     }
 
